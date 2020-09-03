@@ -10,3 +10,38 @@ git log
 Git diff <filename>
 clear screen -> cls
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Private Branch1--------------------------
+	|					|
+	|					|
+	|					|
+------Master----------Release----------Master--------------Master------------Release-----------Master------------
+	|							   |
+	|							   |Pull and then merge
+Private Barnch2----------------------------------------------------
+
+

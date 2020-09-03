@@ -1,4 +1,4 @@
-git status
+git status -> prints the status of the Git Repository
 git init
 git config --global user.name "Let's Kode It"
 git config --global user.ename letskodeit@gmail.com
@@ -8,4 +8,5 @@ git add
 git commit -m ""
 git log
 Git diff <filename>
+clear screen -> cls
 

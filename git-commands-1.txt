@@ -1,40 +1,39 @@
-git status -> prints the status of the Git Repository
-git init -> initializes the Git Repository
-git config --global user.name "Let's Kode It"
-git config --global user.ename letskodeit@gmail.com
-git config user.name "Let's Kode It"
-git config user.ename letskodeit@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+git status 						-> prints the status of the Git Repository
+git init 						-> initializes the Git Repository
+git config --global user.name "Let's Kode It" 		-> specify username globally
+git config --global user.ename letskodeit@gmail.com	-> specify email globally
+git config user.name "Let's Kode It"			-> spaecify username for particular repository
+git config user.ename letskodeit@gmail.com		-> spaecify email for particular repository
+git add							-> add file to staging environment
+git commit -m ""					-> commit file to local Git repository
+git log							-> check file log history
+git diff <filename>					-> check changes made to file with existing file
+git remote add origin <GitHub Repository URL>		-> establish connection to the remote Github repository
+git push orgin master					-> push to master branch
 clear screen -> cls
 
+Scenario 1:
+First Release -> Done
+Second Release
+	2 Features
+	2 People
+Third Release
+	1 Features
+	1 Person
+Scenario 2:
+Two people
 
+Person A -> Enhance the framework
+Person B -> Automating test cases
 
+testMethod1 -> getName()
 
+Person A -> Merge code to master
+Person B -> Pull from master to private branch, merge code to master
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Scenario 3:
+1 Person -> Two different features
+Work on different branches
 Private Branch1--------------------------
 	|					|
 	|					|
@@ -43,5 +42,3 @@ Private Branch1--------------------------
 	|							   |
 	|							   |Pull and then merge
 Private Barnch2----------------------------------------------------
-
-
